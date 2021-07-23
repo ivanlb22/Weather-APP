@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    font-size: 62.5%;
+    font-weight: 300;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+}
+header {
+    border-bottom: 0.5rem solid #ffa500;
+}
+.container{
+    width: 1320px;
+    margin:auto;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0; 
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+    padding-right: 10rem;
+}
+h2 {
+    font-size: 3rem;
+}
+
+h2 i {
+    color: #ffa500;
+}
+.cuadro-busqueda {
+    position: relative;
+    width: 35rem;
+    
+}
+.input {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    border-radius: 2,5rem;
+    outline: none;
+    border: 0.1rem solid #8e8e8e;
+    transition: all 0.5s ease-in-out;
+}
+.input:focus {
+    box-shadow: 0 0 0.5rem #ffa500;
+    border:0.2rem solid #ffa500;
+}
+.input-latitud {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    margin-left: 4rem;
+    border-radius: 2,5rem;
+    outline: none;
+    border: 0.1rem solid #8e8e8e;
+    transition: all 0.5s ease-in-out;
+}
+.input-longitud {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    margin-left: 2.4rem;
+    padding-left: 8rem;
+    border-radius: 2,5rem;
+    outline: none;
+    border: 0.1rem solid #8e8e8e;
+    transition: all 0.5s ease-in-out;
+}
+.input-tiempo {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    margin-left: 4rem;
+    padding-left: 8rem;
+    border-radius: 2,5rem;
+    outline: none;
+    border: 0.1rem solid #8e8e8e;
+    transition: all 0.5s ease-in-out;
+}
+.cuadro-busqueda i {
+    color: #8e8e8e;
+    position: absolute;
+    font-size: 3rem;
+    right: 4rem;
+    cursor: pointer;
+    transition: all is ease-in-out;
+}
+.cuadro-busqueda i:hover {
+    color: #ffa500;
+}
